@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WrapMania - Vos Dîners Fraîcheur & Légèreté</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS Library for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Swiper JS for Carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">WrapMania <i class="fas fa-leaf"></i></div>
+            <ul class="nav-links">
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#analyse">Analyse</a></li>
+                <li><a href="#principes">Principes</a></li>
+                <li><a href="#avantages">Bénéfices</a></li>
+                <li><a href="#recettes">Recettes</a></li>
+                <li><a href="#conseils">Conseils</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>WrapMania</h1>
+                <p>Transformez vos dîners, allégez votre quotidien !</p>
+                <a href="#introduction" class="cta-button">Découvrir le concept</a>
+            </div>
+        </section>
+
+        <section id="introduction" class="content-section" data-aos="fade-up">
+            <h2>1. Introduction et objectif</h2>
+            <p>Remplacer un repas par une alternative plus légère comme un wrap peut être une stratégie pour réduire l'apport calorique global et favoriser la perte de poids. Cette analyse vise à déterminer si cette approche est nutritionnellement adéquate, durable et efficace pour atteindre vos objectifs de perte de poids.</p>
+        </section>
+
+        <section id="analyse" class="content-section">
+            <h2 data-aos="fade-up">2. Analyse nutritionnelle des wraps</h2>
+            
+            <div class="sub-section" data-aos="fade-right">
+                <h3>Éléments de base d'un wrap</h3>
+                <h4>La tortilla/galette (base du wrap) :</h4>
+                <ul>
+                    <li><strong>Tortilla de blé standard (25 cm) :</strong> 170-200 calories, 25-30g de glucides, 5-6g de protéines, 3-5g de lipides</li>
+                    <li><strong>Tortilla de blé complet (25 cm) :</strong> 120-150 calories, 20-25g de glucides (dont 3-5g de fibres), 5-7g de protéines, 2-4g de lipides</li>
+                    <li><strong>Tortilla de maïs (15 cm) :</strong> 50-70 calories, 10-12g de glucides, 1-2g de protéines, 0-1g de lipides</li>
+                    <li><strong>Galette de sarrasin :</strong> 90-120 calories, 15-20g de glucides, 3-4g de protéines, 1-2g de lipides</li>
+                    <li><strong>Wrap sans gluten :</strong> 100-180 calories (très variable selon les ingrédients)</li>
+                </ul>
+                <img src="images/tortilla-types.jpg" alt="Différents types de tortillas" class="inline-image" data-aos="zoom-in">
+            </div>
+
+            <div class="sub-section" data-aos="fade-left">
+                <h3>Impact calorique selon les garnitures</h3>
+                <h4>Protéines (portion de 100g) :</h4>
+                <ul>
+                    <li>Poulet grillé : 120-150 calories</li>
+                    <li>Thon au naturel : 100-120 calories</li>
+                    <li>Œuf dur (2 œufs) : 140-160 calories</li>
+                    <li>Tofu : 80-100 calories</li>
+                    <li>Légumineuses (lentilles, pois chiches) : 120-150 calories</li>
+                </ul>
+                <h4>Légumes (portion de 100g) :</h4>
+                <ul>
+                    <li>Salade verte : 15-20 calories</li>
+                    <li>Tomate : 18-22 calories</li>
+                    <li>Concombre : 10-15 calories</li>
+                    <li>Carottes râpées : 35-40 calories</li>
+                    <li>Poivron : 20-25 calories</li>
+                    <li>Avocat (1/2) : 120-160 calories</li>
+                </ul>
+                <img src="images/ingredients-fresh.jpg" alt="Ingrédients frais pour wraps" class="inline-image" data-aos="zoom-in">
+                <h4>Sauces et condiments (portion de 15ml/1 cuillère à soupe) :</h4>
+                <ul>
+                    <li>Fromage blanc 0% : 15-20 calories</li>
+                    <li>Houmous : 25-30 calories</li>
+                    <li>Guacamole : 30-40 calories</li>
+                    <li>Sauce yaourt/citron : 20-25 calories</li>
+                    <li>Mayonnaise légère : 40-50 calories</li>
+                    <li>Mayonnaise classique : 90-100 calories</li>
+                </ul>
+            </div>
+            <div class="sub-section wrap-examples" data-aos="fade-up">
+                <h3>Exemples d'apport calorique total</h3>
+                <div class="wrap-example-card">
+                    <h4>Wrap équilibré standard</h4>
+                    <p>Tortilla blé complet : 130 cal</p>
+                    <p>Poulet grillé (100g) : 140 cal</p>
+                    <p>Légumes variés (100g) : 30 cal</p>
+                    <p>Sauce yaourt aux herbes (15g) : 25 cal</p>
+                    <p><strong>Total : environ 325 calories</strong></p>
+                </div>
+                <div class="wrap-example-card">
+                    <h4>Wrap végétarien protéiné</h4>
+                    <p>Tortilla blé complet : 130 cal</p>
+                    <p>Houmous (30g) : 60 cal</p>
+                    <p>Légumineuses (100g) : 130 cal</p>
+                    <p>Légumes variés (100g) : 30 cal</p>
+                    <p><strong>Total : environ 350 calories</strong></p>
+                </div>
+                <div class="wrap-example-card">
+                    <h4>Wrap gourmand (plus calorique)</h4>
+                    <p>Tortilla standard : 180 cal</p>
+                    <p>Thon (100g) : 110 cal</p>
+                    <p>Avocat (1/2) : 140 cal</p>
+                    <p>Légumes (50g) : 15 cal</p>
+                    <p>Mayonnaise légère (15g) : 45 cal</p>
+                    <p><strong>Total : environ 490 calories</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="principes" class="content-section alternate-bg" data-aos="fade-up">
+            <h2>3. Principes de base pour une perte de poids saine</h2>
+            <p>Pour qu'une perte de poids soit saine et durable, il faut considérer :</p>
+            <ol>
+                <li><strong>Déficit calorique modéré :</strong> Consommer moins de calories que ce que l'on dépense, mais un déficit trop important peut ralentir le métabolisme.</li>
+                <li><strong>Apport nutritionnel équilibré :</strong> Maintenir un apport suffisant en Protéines, Fibres, Vitamines et minéraux essentiels, Acides gras essentiels.</li>
+                <li><strong>Satiété :</strong> Un repas doit procurer une sensation de satiété suffisante pour éviter les grignotages.</li>
+                <li><strong>Durabilité :</strong> Le régime doit pouvoir être maintenu sur la durée sans frustration excessive.</li>
+            </ol>
+        </section>
+
+        <section id="avantages" class="content-section">
+            <h2 data-aos="fade-up">4. Avantages et inconvénients de cette approche</h2>
+            <div class="pros-cons-container">
+                <div class="pros" data-aos="fade-right">
+                    <h3>Avantages de remplacer le dîner par un wrap <i class="fas fa-check-circle"></i></h3>
+                    <ul>
+                        <li><i class="fas fa-ruler-combined"></i> <strong>Contrôle des portions :</strong> Format défini qui limite naturellement la quantité consommée.</li>
+                        <li><i class="fas fa-stopwatch"></i> <strong>Simplicité de préparation :</strong> Rapide à préparer, pratique pour les personnes occupées.</li>
+                        <li><i class="fas fa-blender"></i> <strong>Variété possible :</strong> Permet une grande variété de compositions pour éviter la monotonie.</li>
+                        <li><i class="fas fa-carrot"></i> <strong>Richesse en légumes :</strong> Facile d'incorporer une bonne quantité de légumes.</li>
+                        <li><i class="fas fa-suitcase"></i> <strong>Portable :</strong> Pratique pour manger en déplacement ou au travail.</li>
+                    </ul>
+                </div>
+                <div class="cons" data-aos="fade-left">
+                    <h3>Inconvénients et points d'attention <i class="fas fa-exclamation-triangle"></i></h3>
+                    <ul>
+                        <li><i class="fas fa-drumstick-bite"></i> <strong>Risque de déficit protéique :</strong> Si le wrap n'est pas suffisamment riche en protéines.</li>
+                        <li><i class="fas fa-battery-quarter"></i> <strong>Satiété parfois insuffisante :</strong> Un seul wrap peut ne pas suffire pour certaines personnes.</li>
+                        <li><i class="fas fa-redo"></i> <strong>Risque de monotonie :</strong> Malgré les variations, le format reste similaire.</li>
+                        <li><i class="fas fa-feather-alt"></i> <strong>Potentiellement trop léger :</strong> Selon votre activité physique, un simple wrap pourrait être insuffisant.</li>
+                        <li><i class="fas fa-balance-scale-left"></i> <strong>Déséquilibre nutritionnel :</strong> Sans attention à la composition, risque de carences.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="recettes" class="content-section alternate-bg">
+            <h2 data-aos="fade-up">5. Recettes de wraps pour 7 jours</h2>
+            <p data-aos="fade-up">Inspirez-vous avec nos idées de wraps équilibrés et savoureux pour chaque jour de la semaine !</p>
+            
+            <div class="swiper-container recipe-carousel" data-aos="zoom-in">
+                <div class="swiper-wrapper">
+                    <!-- Lundi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-mediterraneen.jpg" alt="Wrap Méditerranéen">
+                        <h3>Lundi : Wrap Méditerranéen</h3>
+                        <p>1 tortilla blé complet (130 cal), 100g poulet grillé aux herbes (140 cal), 30g poivrons grillés (20 cal), 30g concombre (10 cal), 20g oignon rouge (8 cal), 15g feta allégé (30 cal), 1 c.à.s. sauce yaourt et menthe (20 cal).</p>
+                        <p><strong>Total : ~358 cal | P:25g G:30g L:12g</strong></p>
+                    </div>
+                    <!-- Mardi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-thon-crudites.jpg" alt="Wrap Thon & Crudités">
+                        <h3>Mardi : Wrap Thon & Crudités</h3>
+                        <p>1 tortilla maïs (60 cal), 100g thon naturel (120 cal), 50g tomates cerises (15 cal), 30g salade verte (5 cal), 20g maïs doux (25 cal), 1/2 œuf dur (35 cal), 1 c.à.s. fromage blanc aux herbes (15 cal).</p>
+                        <p><strong>Total : ~275 cal | P:23g G:20g L:8g</strong></p>
+                    </div>
+                    <!-- Mercredi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-vegetarien.jpg" alt="Wrap Végétarien">
+                        <h3>Mercredi : Wrap Végétarien</h3>
+                        <p>1 galette sarrasin (100 cal), 100g lentilles cuisinées (130 cal), 30g carottes râpées (12 cal), 30g betterave cuite (15 cal), 20g roquette (5 cal), 1 c.à.s. houmous (30 cal).</p>
+                        <p><strong>Total : ~292 cal | P:16g G:40g L:7g</strong></p>
+                    </div>
+                    <!-- Jeudi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-grec.jpg" alt="Wrap Grec">
+                        <h3>Jeudi : Wrap Grec</h3>
+                        <p>1 tortilla blé complet (130 cal), 100g blanc dinde grillé (110 cal), 30g tomates séchées égouttées (40 cal), 20g olives noires dénoyautées (40 cal), 30g salade verte (5 cal), 1 c.à.s. tzatziki allégé (25 cal).</p>
+                        <p><strong>Total : ~350 cal | P:23g G:30g L:14g</strong></p>
+                    </div>
+                    <!-- Vendredi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-ocean.jpg" alt="Wrap Océan">
+                        <h3>Vendredi : Wrap Océan</h3>
+                        <p>1 tortilla blé complet (130 cal), 100g saumon fumé (150 cal), 50g concombre (15 cal), 20g avocat (35 cal), 30g mesclun (6 cal), 1 c.à.s. fromage frais 0% aux herbes (15 cal).</p>
+                        <p><strong>Total : ~351 cal | P:24g G:25g L:15g</strong></p>
+                    </div>
+                    <!-- Samedi -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-tex-mex.jpg" alt="Wrap Tex-Mex">
+                        <h3>Samedi : Wrap Tex-Mex</h3>
+                        <p>1 tortilla blé complet (130 cal), 100g haricots rouges égouttés (115 cal), 50g poivrons grillés (30 cal), 30g maïs (35 cal), 20g oignon rouge (8 cal), 2 c.à.s. salsa tomates (15 cal), 10g fromage râpé allégé (30 cal).</p>
+                        <p><strong>Total : ~363 cal | P:18g G:50g L:9g</strong></p>
+                    </div>
+                    <!-- Dimanche -->
+                    <div class="swiper-slide recipe-card">
+                        <img src="images/wrap-oriental.jpg" alt="Wrap Oriental">
+                        <h3>Dimanche : Wrap Oriental</h3>
+                        <p>1 tortilla blé complet (130 cal), 100g falafels au four (180 cal), 50g tomates (10 cal), 30g concombre (10 cal), 30g chou rouge émincé (10 cal), 1 c.à.s. sauce yaourt et cumin (20 cal).</p>
+                        <p><strong>Total : ~360 cal | P:15g G:42g L:14g</strong></p>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="conseils" class="content-section">
+            <h2 data-aos="fade-up">6. Conseils pour maximiser les résultats</h2>
+            <div class="conseils-grid">
+                <div class="conseil-card" data-aos="fade-right">
+                    <i class="fas fa-seedling fa-2x"></i>
+                    <h3>Pour renforcer la satiété</h3>
+                    <ol>
+                        <li><strong>Ajouter des fibres :</strong> Tortillas complètes, plus de légumes.</li>
+                        <li><strong>Assurer un bon apport en protéines :</strong> Minimum 20-25g par repas.</li>
+                        <li><strong>Inclure des graisses saines :</strong> Petites quantités d'avocat, huile d'olive, noix.</li>
+                        <li><strong>Boire un grand verre d'eau</strong> avant le repas.</li>
+                        <li><strong>Compléter avec une soupe légère</strong> en entrée si nécessaire (30-100 calories supplémentaires).</li>
+                    </ol>
+                </div>
+                <div class="conseil-card" data-aos="fade-left">
+                    <i class="fas fa-utensils fa-2x"></i>
+                    <h3>Pour éviter la monotonie</h3>
+                    <ol>
+                        <li><strong>Varier les bases :</strong> Alterner tortillas de blé, maïs, galettes de sarrasin.</li>
+                        <li><strong>Explorer différentes cuisines :</strong> Méditerranéenne, asiatique, mexicaine, indienne...</li>
+                        <li><strong>Jouer sur les textures :</strong> Croquant, crémeux, fondant.</li>
+                        <li><strong>Utiliser des épices et herbes :</strong> Pour varier les saveurs sans ajouter de calories.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommandations" class="content-section alternate-bg" data-aos="fade-up">
+            <h2>7. Recommandations générales</h2>
+            <h3>Pertinence pour la perte de poids</h3>
+            <p>Remplacer le repas du soir par un wrap bien composé peut être efficace pour la perte de poids si :</p>
+            <ul class="checklist">
+                <li><i class="fas fa-check"></i> Le contenu est équilibré : Riche en protéines et légumes, modéré en matières grasses.</li>
+                <li><i class="fas fa-check"></i> L'apport calorique est adapté : Les wraps proposés varient entre 275-365 calories, ce qui représente une réduction significative par rapport à un dîner conventionnel (souvent 500-800 calories).</li>
+                <li><i class="fas fa-check"></i> La sensation de satiété est suffisante : Si vous ressentez la faim peu après, cette stratégie pourrait être contre-productive.</li>
+            </ul>
+
+            <h3>Conseils personnalisés</h3>
+            <ol class="custom-list">
+                <li><strong>Phase d'adaptation :</strong> Commencez par 2-3 soirs par semaine avant d'adopter cette approche tous les jours.</li>
+                <li><strong>Écouter votre corps :</strong> Si la faim est trop présente, ajoutez un complément (soupe légère, yaourt protéiné).</li>
+                <li><strong>Activité physique :</strong> Adaptez le contenu calorique de votre wrap selon votre niveau d'activité.</li>
+                <li><strong>Suivi :</strong> Notez votre niveau de satiété et d'énergie pour ajuster si nécessaire.</li>
+                <li><strong>Accompagnement médical :</strong> Pour une perte de poids significative, un suivi par un professionnel de santé est recommandé.</li>
+            </ol>
+            <img src="images/healthy-lifestyle.jpg" alt="Personnes profitant d'un mode de vie sain" class="inline-image large-image" data-aos="zoom-in-up">
+        </section>
+
+        <section id="conclusion" class="content-section" data-aos="fade-up">
+            <h2>Conclusion</h2>
+            <p>Remplacer le dîner par un wrap peut être une stratégie efficace pour réduire l'apport calorique tout en maintenant un repas équilibré et satisfaisant. Cependant, cette approche doit s'inscrire dans une démarche globale de rééquilibrage alimentaire et d'adoption d'habitudes de vie saines.</p>
+            <p>Pour maximiser les résultats et assurer votre santé, il est recommandé de consulter un professionnel de santé (médecin, nutritionniste) qui pourra adapter ces conseils à votre situation personnelle, à votre état de santé et à vos besoins spécifiques.</p>
+            <img src="images/cooking-together.jpg" alt="Ambiance conviviale en cuisine" class="inline-image large-image" data-aos="zoom-in-up">
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WrapMania - Votre guide fraîcheur. Conçu pour vous et vos colocs !</p>
+    </footer>
+
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
